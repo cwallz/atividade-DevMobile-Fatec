@@ -1,0 +1,108 @@
+:root {
+	--ion-color-primary: #5912c4;
+	--ion-color-primary-rgb: 89,18,196;
+	--ion-color-primary-contrast: #ffffff;
+	--ion-color-primary-contrast-rgb: 255,255,255;
+	--ion-color-primary-shade: #4e10ac;
+	--ion-color-primary-tint: #6a2aca;
+
+	--ion-color-secondary: #d1b3ff;
+	--ion-color-secondary-rgb: 209,179,255;
+	--ion-color-secondary-contrast: #000000;
+	--ion-color-secondary-contrast-rgb: 0,0,0;
+	--ion-color-secondary-shade: #b89ee0;
+	--ion-color-secondary-tint: #d6bbff;
+
+	--ion-color-tertiary: #a920cf;
+	--ion-color-tertiary-rgb: 169,32,207;
+	--ion-color-tertiary-contrast: #ffffff;
+	--ion-color-tertiary-contrast-rgb: 255,255,255;
+	--ion-color-tertiary-shade: #951cb6;
+	--ion-color-tertiary-tint: #b236d4;
+
+	--ion-color-success: #169838;
+	--ion-color-success-rgb: 22,152,56;
+	--ion-color-success-contrast: #000000;
+	--ion-color-success-contrast-rgb: 0,0,0;
+	--ion-color-success-shade: #138631;
+	--ion-color-success-tint: #2da24c;
+
+	--ion-color-warning: #ffbe0a;
+	--ion-color-warning-rgb: 255,190,10;
+	--ion-color-warning-contrast: #000000;
+	--ion-color-warning-contrast-rgb: 0,0,0;
+	--ion-color-warning-shade: #e0a709;
+	--ion-color-warning-tint: #ffc523;
+
+	--ion-color-danger: #c31d1d;
+	--ion-color-danger-rgb: 195,29,29;
+	--ion-color-danger-contrast: #ffffff;
+	--ion-color-danger-contrast-rgb: 255,255,255;
+	--ion-color-danger-shade: #ac1a1a;
+	--ion-color-danger-tint: #c93434;
+
+	--ion-color-light: #f6f8fc;
+	--ion-color-light-rgb: 246,248,252;
+	--ion-color-light-contrast: #000000;
+	--ion-color-light-contrast-rgb: 0,0,0;
+	--ion-color-light-shade: #d8dade;
+	--ion-color-light-tint: #f7f9fc;
+
+	--ion-color-medium: #707070;
+	--ion-color-medium-rgb: 112,112,112;
+	--ion-color-medium-contrast: #ffffff;
+	--ion-color-medium-contrast-rgb: 255,255,255;
+	--ion-color-medium-shade: #636363;
+	--ion-color-medium-tint: #7e7e7e;
+
+	--ion-color-dark: #454545;
+	--ion-color-dark-rgb: 69,69,69;
+	--ion-color-dark-contrast: #ffffff;
+	--ion-color-dark-contrast-rgb: 255,255,255;
+	--ion-color-dark-shade: #3d3d3d;
+	--ion-color-dark-tint: #585858;
+
+}
+
+body.dark {
+    /* 1. Mudando o fundo para escuro e texto para claro (O MAIS IMPORTANTE) */
+    --ion-background-color: #121212;
+    --ion-background-color-rgb: 18,18,18;
+    --ion-text-color: #ffffff;
+    --ion-text-color-rgb: 255,255,255;
+
+    /* 2. Cores ajustadas para não doer a vista no fundo escuro */
+    --ion-color-step-50: #1e1e1e;
+    --ion-color-step-100: #2a2a2a;
+    --ion-color-step-150: #363636;
+    --ion-color-step-200: #414141;
+    --ion-color-step-250: #4d4d4d;
+    --ion-color-step-300: #595959;
+    --ion-color-step-350: #656565;
+    --ion-color-step-400: #717171;
+    --ion-color-step-450: #7d7d7d;
+    --ion-color-step-500: #898989;
+    --ion-color-step-550: #949494;
+    --ion-color-step-600: #a0a0a0;
+    --ion-color-step-650: #acacac;
+    --ion-color-step-700: #b8b8b8;
+    --ion-color-step-750: #c4c4c4;
+    --ion-color-step-800: #d0d0d0;
+    --ion-color-step-850: #dbdbdb;
+    --ion-color-step-900: #e7e7e7;
+    --ion-color-step-950: #f3f3f3;
+
+    /* 3. Ajustando os cards e itens para o modo escuro */
+    --ion-toolbar-background: #1f1f1f;
+    --ion-item-background: #1e1e1e;
+    --ion-card-background: #1e1e1e;
+
+    /* Suas cores primárias, mas com contraste melhorado */
+    --ion-color-primary: #7b3deb;
+    --ion-color-primary-rgb: 123,61,235;
+    --ion-color-primary-contrast: #ffffff;
+    
+    --ion-color-dark: #f4f5f8;
+    --ion-color-dark-rgb: 244,245,248;
+    --ion-color-dark-contrast: #000000;
+}

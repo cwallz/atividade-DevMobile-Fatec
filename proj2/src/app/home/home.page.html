@@ -1,0 +1,114 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title color="light"> Lista de Receitas </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true"  >
+  <ion-grid>
+      <ion-button color="tertiary" (click)="irParaReceita()">
+        Ir para Receita
+      </ion-button>
+
+      <ion-button color="dark" (click)="alternarTema()">
+        ☾ Alternar Modo Escuro
+      </ion-button>
+
+    <ion-row>
+         
+      <!-- CARD 1 -->
+      <ion-col size="12" size-md="6">
+        <ion-card color="secondary">
+          <ion-card-header>
+            <ion-card-title color="primary" class="ion-text-center negrito">Bolo de cenoura</ion-card-title>
+            <ion-card-subtitle>Bolo prático de cenoura com cobertura de chocolate.</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            <img class="img-receita" alt="Bolo de cenoura com chocolate" src="assets/img1.jpg" />
+            🕒30min   🔰fácil
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      
+      <!-- CARD 2 -->
+      <ion-col size="12" size-md="6">
+        <ion-card color="secondary">
+           <ion-card-header>
+             <ion-card-title color="primary" class="ion-text-center negrito">Estrogonofe de Frango</ion-card-title>
+             <ion-card-subtitle>Aprenda um clássico Estrogonofe de Frango.</ion-card-subtitle>
+           </ion-card-header>
+           <ion-card-content>
+             <img class="img-receita" alt="Estrogonofe de Frango" src="assets/img2.jpg" />
+             🕒30min   🔰Médio
+           </ion-card-content>
+         </ion-card>
+      </ion-col>
+
+      <!-- CARD 3 -->
+        <ion-col size="12" size-md="6">
+          <ion-card color="secondary">
+             <ion-card-header>
+               <ion-card-title color="primary" class="ion-text-center negrito">Pudim de Leite Condensado</ion-card-title>
+               <ion-card-subtitle>Cremosinho igual da padaria.</ion-card-subtitle>
+             </ion-card-header>
+             <ion-card-content>
+               <img class="img-receita" alt="Pudim de Leite Condensado" src="assets/img3.jpg" />
+               🕒70min   🔰Fácil
+             </ion-card-content>
+           </ion-card>
+        </ion-col>
+
+        <!-- CARD 4 -->
+        <ion-col size="12" size-md="6">
+          <ion-card color="secondary">
+             <ion-card-header>
+               <ion-card-title color="primary" class="ion-text-center negrito">Torta de carne moída</ion-card-title>
+               <ion-card-subtitle>Aquela torta simples de liquidificador que fica deliciosa.</ion-card-subtitle>
+             </ion-card-header>
+             <ion-card-content>
+               <img class="img-receita" alt="Torta de carne moída" src="assets/img4.jpg" />
+               🕒80min   🔰Médio
+             </ion-card-content>
+           </ion-card>
+        </ion-col>
+
+        <!-- CARD 5 -->
+        <ion-col size="12" size-md="6">
+          <ion-card color="secondary">
+             <ion-card-header>
+               <ion-card-title color="primary" class="ion-text-center negrito">Doce de Banana</ion-card-title>
+               <ion-card-subtitle>Receita prática.</ion-card-subtitle>
+             </ion-card-header>
+             <ion-card-content>
+               <img class="img-receita" alt="Doce de Banana" src="assets/img5.jpg" />
+               🕒50min   🔰Fácil
+             </ion-card-content>
+           </ion-card>
+        </ion-col>
+
+       <!-- CARD 6 -->
+        <ion-col size="12" size-md="6">
+          <ion-card color="secondary">
+             <ion-card-header>
+               <ion-card-title color="primary" class="ion-text-center negrito">Bife Wellington</ion-card-title>
+               <ion-card-subtitle>Aprenda esse clássico da gastronomia.</ion-card-subtitle>
+             </ion-card-header>
+             <ion-card-content>
+               <img class="img-receita" alt="Bife Wellington" src="assets/img6.jpg" />
+               🕒120min   🔰Difícil
+             </ion-card-content>
+           </ion-card>
+        </ion-col>
+
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="primary">
+    <ion-title size="small" class="ion-text-center">
+      © 2026 Receitas do Wallz
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>

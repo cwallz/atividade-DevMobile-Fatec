@@ -1,0 +1,75 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title color="light"> Bolo de Cenoura</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+  <ion-button color="tertiary" (click)="irParaHome()">
+    Ir para Home
+  </ion-button>
+  
+  <ion-button color="dark" (click)="alternarTema()">
+    ☾ Alternar Modo Escuro
+  </ion-button>
+  <ion-grid>
+
+
+      <ion-card color="secondary">
+          <ion-card-header>
+            <ion-card-title color="primary" class="ion-text-center negrito">Bolo de cenoura</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <img class="img-receita" alt="Bolo de cenoura com chocolate" src="assets/img1.jpg" />
+            <ion-card-subtitle color="primary" class="ion-text-center negrito ion-padding-top">Lista de ingredientes:</ion-card-subtitle>
+            
+            <div class="tempo-dificuldade ion-padding-top ion-margin-bottom">
+              <span>🕒 30min</span>
+              <span>🔰 Fácil</span>
+            </div>
+
+            <ion-list>
+              <ion-item>
+                <ion-label>➡️  Cenoura: 3 médias (aprox. 250g)</ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-label>➡️ Ovos: 4 unidades</ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-label>➡️ Óleo: 1 xícara (chá)</ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-label>➡️ Açúcar: 2 xícaras (chá)</ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-label>➡️ Farinha de Trigo: 2 xícaras (chá)</ion-label>
+              </ion-item>
+              <ion-item>
+                <ion-label>➡️ Fermento em Pó: 1 colher (sopa)</ion-label>
+              </ion-item>
+            </ion-list>
+
+            <ion-card-subtitle color="primary" class="ion-text-center negrito ion-padding-top">Modo de preparo: </ion-card-subtitle>
+            
+
+            <div class="caixa-instrucoes ion-padding ion-margin-bottom">
+              <p><strong>1.</strong> Em um liquidificador, adicione a cenoura, os ovos e o óleo. Bata até formar um creme liso.</p>
+              <p><strong>2.</strong> Em uma tigela, misture o açúcar e a farinha de trigo. Despeje o creme do liquidificador e misture bem.</p>
+              <p><strong>3.</strong> Por último, adicione o fermento em pó e misture delicadamente com uma colher.</p>
+              <p><strong>4.</strong> Despeje em uma forma untada e asse em forno preaquecido a 180°C por cerca de 40 minutos.</p>
+            </div>
+
+          </ion-card-content>
+        </ion-card>
+
+
+  </ion-grid>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="primary">
+    <ion-title size="small" class="ion-text-center">
+      © 2026 Receitas do Wallz
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>
